@@ -7,9 +7,9 @@ import utilities.Driver;
 
 public class N11page {
 
-    public N11page(){
+    public N11page() {
 
-        PageFactory.initElements(Driver.getDriver(),this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
 
@@ -30,8 +30,6 @@ public class N11page {
 
     @FindBy(css = "a[title='Çıkış Yap']")
     public WebElement btnCikisYap;
-
-
 
 
 }
